@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:#616161;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#9E9E9E;
+    color:white;
+}
+.banner{
+    color: black;
+
+}
+.responsive{
+    width: 100%;
+    height:auto;
+}
+.relative{position:relative; width:600px;}
+.absolute-text{position:absolute; bottom:0; 
+padding:10px 20px; width:100%; text-align:center;}
